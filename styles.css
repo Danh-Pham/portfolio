@@ -1,0 +1,48 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #1a202c;
+}
+
+header {
+    background-color: #2d3748;
+    color: white;
+}
+
+header h1 {
+    color: #6366f1;
+}
+
+header nav a {
+    color: #a0aec0;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #6366f1;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+#projects .bg-gray-700 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .bg-gray-700:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+footer {
+    background-color: #2d3748;
+    color: #a0aec0;
+}
+
+footer a {
+    color: #63b3ed;
+    transition: color 0.3s ease;
+}
+
+footer a:hover
